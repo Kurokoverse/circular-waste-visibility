@@ -58,42 +58,42 @@ const News = () => {
       excerpt: "Our team has successfully deployed IoT sensors in 15 retail locations to track waste in real-time.",
       date: "June 15, 2024",
       author: "Dr. Zeynep Kaya",
-      image: "https://via.placeholder.com/600x400?text=Waste+Tracking"
+      image: "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=600&auto=format&fit=crop"
     },
     {
       title: "Research Paper Published in Sustainability Journal",
       excerpt: "Our findings on circular waste management have been published in the International Journal of Sustainability.",
       date: "May 28, 2024",
       author: "Dr. Ahmet Yılmaz",
-      image: "https://via.placeholder.com/600x400?text=Research+Paper"
+      image: "https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=600&auto=format&fit=crop"
     },
     {
       title: "Partnership with Local Municipalities Announced",
       excerpt: "We're excited to announce a new partnership with three municipalities to implement our waste traceability system.",
       date: "May 10, 2024",
       author: "Mustafa Can",
-      image: "https://via.placeholder.com/600x400?text=Partnership"
+      image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=600&auto=format&fit=crop"
     },
     {
       title: "AI Model Improves Waste Sorting Efficiency",
       excerpt: "Our machine learning algorithm has increased sorting efficiency by 35% in preliminary tests.",
       date: "April 22, 2024",
       author: "Ozan Yıldız",
-      image: "https://via.placeholder.com/600x400?text=AI+Model"
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=600&auto=format&fit=crop"
     },
     {
       title: "Composting Workshop for Retail Partners",
       excerpt: "We conducted a workshop for our retail partners on implementing composting systems in their operations.",
       date: "April 5, 2024",
       author: "Elif Şahin",
-      image: "https://via.placeholder.com/600x400?text=Composting+Workshop"
+      image: "https://images.unsplash.com/photo-1605600659873-d808a13e4d2a?q=80&w=600&auto=format&fit=crop"
     },
     {
       title: "Project Featured in National Science Magazine",
       excerpt: "Our circular waste management project was featured in Turkey's leading science and technology magazine.",
       date: "March 18, 2024",
       author: "Selin Arslan",
-      image: "https://via.placeholder.com/600x400?text=Magazine+Feature"
+      image: "https://images.unsplash.com/photo-1621451537084-482c73073a0f?q=80&w=600&auto=format&fit=crop"
     },
   ];
   

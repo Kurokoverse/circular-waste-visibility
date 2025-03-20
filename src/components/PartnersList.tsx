@@ -13,17 +13,17 @@ const PartnersList: React.FC = () => {
     },
     {
       name: "Onursal Tarım",
-      logo: "https://www.onursaltarim.com.tr/wp-content/uploads/2023/01/onursal-tarim-logo.png",
+      logo: "/lovable-uploads/068a4d17-bf1d-4406-af7c-b0213eec99f3.png",
       description: "Leading agricultural company in Turkey"
     },
     {
-      name: "Partner University",
-      logo: "https://via.placeholder.com/200x80?text=University",
+      name: "Ege University",
+      logo: "https://upload.wikimedia.org/wikipedia/en/3/3a/Ege_University_logo.png",
       description: "Academic research partner"
     },
     {
-      name: "Technology Partner",
-      logo: "https://via.placeholder.com/200x80?text=Tech+Partner",
+      name: "Waste Management Association",
+      logo: "https://images.unsplash.com/photo-1610416953538-9fe187219ea1?q=80&w=200&auto=format&fit=crop",
       description: "Technology solutions provider"
     }
   ];

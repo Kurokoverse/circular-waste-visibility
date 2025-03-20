@@ -37,42 +37,42 @@ const Team = () => {
     {
       name: "Dr. Ahmet Yılmaz",
       role: "Project Director",
-      image: "https://via.placeholder.com/128?text=AY",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop",
     },
     {
       name: "Dr. Zeynep Kaya",
       role: "Lead Researcher",
-      image: "https://via.placeholder.com/128?text=ZK",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop",
     },
     {
       name: "Mehmet Öztürk",
       role: "Technology Lead",
-      image: "https://via.placeholder.com/128?text=MO",
+      image: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=200&auto=format&fit=crop",
     },
     {
       name: "Ayşe Demir",
       role: "Sustainability Expert",
-      image: "https://via.placeholder.com/128?text=AD",
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop",
     },
     {
       name: "Mustafa Can",
       role: "Data Scientist",
-      image: "https://via.placeholder.com/128?text=MC",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     },
     {
       name: "Elif Şahin",
       role: "Agricultural Engineer",
-      image: "https://via.placeholder.com/128?text=ES",
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     },
     {
       name: "Ozan Yıldız",
       role: "Software Developer",
-      image: "https://via.placeholder.com/128?text=OY",
+      image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=200&auto=format&fit=crop",
     },
     {
       name: "Selin Arslan",
       role: "Environmental Analyst",
-      image: "https://via.placeholder.com/128?text=SA",
+      image: "https://images.unsplash.com/photo-1598550874175-4d0ef436c909?q=80&w=200&auto=format&fit=crop",
     },
   ];
   
