@@ -13,11 +13,6 @@ const HeroSection: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 -z-10">
         <img 
-          src="/lovable-uploads/068a4d17-bf1d-4406-af7c-b0213eec99f3.png" 
-          alt="Onursal Tarım Logo" 
-          className="absolute top-8 left-8 md:top-12 md:left-12 w-40 h-auto z-20"
-        />
-        <img 
           src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=2000&auto=format&fit=crop" 
           alt="Circular Waste Management" 
           className="w-full h-full object-cover"

@@ -44,20 +44,25 @@ const Navbar: React.FC = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         isScrolled 
-          ? "bg-white/80 backdrop-blur-md shadow-sm py-3"
-          : "bg-transparent py-5"
+          ? "bg-white/80 backdrop-blur-md shadow-sm py-2"
+          : "bg-transparent py-3"
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
+          {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="text-lg font-bold text-primary">
-              Onursal Tarım
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/068a4d17-bf1d-4406-af7c-b0213eec99f3.png" 
+                alt="Onursal Tarım Logo" 
+                className="h-10 w-auto"
+              />
             </Link>
           </div>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
               <Link 
                 key={link.href}
