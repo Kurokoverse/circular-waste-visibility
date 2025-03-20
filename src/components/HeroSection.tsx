@@ -10,6 +10,16 @@ const HeroSection: React.FC = () => {
   
   return (
     <div className="relative min-h-screen flex items-center overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0 -z-10">
+        <img 
+          src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2000&auto=format&fit=crop" 
+          alt="Sustainable Technology" 
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50"></div>
+      </div>
+      
       {/* Background Animation */}
       <div className="absolute inset-0 -z-10 opacity-40">
         <CircularAnimation className="w-full h-full" />
@@ -23,12 +33,12 @@ const HeroSection: React.FC = () => {
           </div>
           
           {/* Title */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 animate-fade-in opacity-0" style={{ animationDelay: '0.5s' }}>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 animate-fade-in opacity-0 text-white" style={{ animationDelay: '0.5s' }}>
             {t('hero.title')}
           </h1>
           
           {/* Subtitle */}
-          <p className="text-lg md:text-xl text-foreground/80 max-w-3xl mb-10 animate-fade-in opacity-0" style={{ animationDelay: '0.7s' }}>
+          <p className="text-lg md:text-xl text-white/90 max-w-3xl mb-10 animate-fade-in opacity-0" style={{ animationDelay: '0.7s' }}>
             {t('hero.subtitle')}
           </p>
           

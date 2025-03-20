@@ -2,7 +2,7 @@
 import React from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import AnimatedTransition from '@/components/AnimatedTransition';
-import { Cpu, BarChart, Globe, Recycle, Database, ChartLine } from 'lucide-react';
+import { Cpu, BarChart, Globe, Recycle, Database, LineChart } from 'lucide-react';
 
 const Technology = () => {
   const { t } = useLanguage();
@@ -16,8 +16,8 @@ const Technology = () => {
     },
     {
       icon: <Database className="h-6 w-6" />,
-      title: "Blockchain Technology",
-      description: "Our solution uses blockchain to create an immutable record of waste collection, processing, and recycling activities.",
+      title: t('tech.blockchain.title'),
+      description: t('tech.blockchain.text'),
       delay: '0.3s',
     },
     {
@@ -27,15 +27,15 @@ const Technology = () => {
       delay: '0.4s',
     },
     {
-      icon: <ChartLine className="h-6 w-6" />,
-      title: "Predictive Analytics",
-      description: "Machine learning algorithms help predict waste generation patterns and optimize collection routes.",
+      icon: <LineChart className="h-6 w-6" />,
+      title: t('tech.analytics.title'),
+      description: t('tech.analytics.text'),
       delay: '0.5s',
     },
     {
       icon: <BarChart className="h-6 w-6" />,
-      title: "Real-time Dashboard",
-      description: "Our integrated dashboard provides stakeholders with actionable insights about waste management performance.",
+      title: t('tech.dashboard.title'),
+      description: t('tech.dashboard.text'),
       delay: '0.6s',
     },
     {
@@ -75,46 +75,46 @@ const Technology = () => {
         
         <div className="mt-24">
           <div className="bg-secondary/30 rounded-xl p-8 md:p-12 animate-fade-in opacity-0" style={{ animationDelay: '0.8s' }}>
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">Innovation Pipeline</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">{t('tech.pipeline.title')}</h2>
             <p className="text-foreground/80 mb-8">
-              Our continuous development process ensures that we stay at the cutting edge of waste management technology.
+              {t('tech.pipeline.description')}
             </p>
             
             <div className="space-y-8">
               <div className="relative pl-8 border-l-2 border-primary/30">
                 <div className="absolute left-[-8px] top-0 w-4 h-4 rounded-full bg-primary"></div>
-                <h3 className="text-xl font-bold mb-2">Phase 1: Data Collection</h3>
+                <h3 className="text-xl font-bold mb-2">{t('tech.phase1.title')}</h3>
                 <p className="text-foreground/70 mb-2">
-                  IoT sensors and mobile apps to collect waste data from retail sources.
+                  {t('tech.phase1.description')}
                 </p>
-                <p className="text-sm text-foreground/50">Completed: Q2 2023</p>
+                <p className="text-sm text-foreground/50">{t('tech.phase1.status')}</p>
               </div>
               
               <div className="relative pl-8 border-l-2 border-primary/30">
                 <div className="absolute left-[-8px] top-0 w-4 h-4 rounded-full bg-primary"></div>
-                <h3 className="text-xl font-bold mb-2">Phase 2: Traceability Platform</h3>
+                <h3 className="text-xl font-bold mb-2">{t('tech.phase2.title')}</h3>
                 <p className="text-foreground/70 mb-2">
-                  Development of blockchain-based traceability platform for waste tracking.
+                  {t('tech.phase2.description')}
                 </p>
-                <p className="text-sm text-foreground/50">In Progress: Q3 2024</p>
+                <p className="text-sm text-foreground/50">{t('tech.phase2.status')}</p>
               </div>
               
               <div className="relative pl-8 border-l-2 border-primary/30">
                 <div className="absolute left-[-8px] top-0 w-4 h-4 rounded-full bg-primary/40"></div>
-                <h3 className="text-xl font-bold mb-2">Phase 3: Circular Economy Integration</h3>
+                <h3 className="text-xl font-bold mb-2">{t('tech.phase3.title')}</h3>
                 <p className="text-foreground/70 mb-2">
-                  Connect waste producers with recyclers and composters to close the loop.
+                  {t('tech.phase3.description')}
                 </p>
-                <p className="text-sm text-foreground/50">Planned: Q1 2025</p>
+                <p className="text-sm text-foreground/50">{t('tech.phase3.status')}</p>
               </div>
               
               <div className="relative pl-8">
                 <div className="absolute left-[-8px] top-0 w-4 h-4 rounded-full bg-primary/30"></div>
-                <h3 className="text-xl font-bold mb-2">Phase 4: Advanced Analytics</h3>
+                <h3 className="text-xl font-bold mb-2">{t('tech.phase4.title')}</h3>
                 <p className="text-foreground/70 mb-2">
-                  Implementation of machine learning for waste reduction recommendations.
+                  {t('tech.phase4.description')}
                 </p>
-                <p className="text-sm text-foreground/50">Planned: Q3 2025</p>
+                <p className="text-sm text-foreground/50">{t('tech.phase4.status')}</p>
               </div>
             </div>
           </div>
